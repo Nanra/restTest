@@ -1,3 +1,6 @@
+import { PostsComponent } from './posts/posts.component';
+import { DetailsComponent } from './details/details.component';
+import { UsersComponent } from './users/users.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
