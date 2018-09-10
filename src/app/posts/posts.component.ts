@@ -9,6 +9,7 @@ import { trigger, style, transition, animate, keyframes, query, stagger } from '
   templateUrl: './posts.component.html',
   styleUrls: ['./posts.component.scss'],
 
+  // Animations Requirements
   animations: [
     trigger('listStagger', [
       transition('* <=> *', [
