@@ -7,17 +7,17 @@ import { UsersComponent } from './users/users.component';
 const routes: Routes = [
   {
     path: '',
-  component: UsersComponent
+    component: UsersComponent
   },
 
   {
     path: 'posts',
-  component: PostsComponent
+    component: PostsComponent
   },
 
   {
-    path: 'details/id',
-  component: DetailsComponent
+    path: 'details/:id',
+    component: DetailsComponent
   }
 
 ];

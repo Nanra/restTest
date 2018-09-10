@@ -1,3 +1,9 @@
-<p>
-  details works!
-</p>
+<h1> {{ user$.name }} </h1>
+
+<ul>
+  <li>Number of Id : {{ user$.id }} </li>
+  <li>Username : {{ user$.username }} </li>
+  <li>Email : {{ user$.email }} </li>
+  <li>Phone : {{ user$.phone }} </li>
+</ul>
+<a  routerLink="/" class="waves-effect waves-light btn"><i class="material-icons left">replay</i>Back</a>
